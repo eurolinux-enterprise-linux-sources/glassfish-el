@@ -2,7 +2,7 @@
 
 Name:           glassfish-el
 Version:        2.2.5
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        J2EE Expression Language Implementation
 Group:          Development/Libraries
 License:        CDDL or GPLv2 with exceptions
@@ -50,6 +50,9 @@ API documentation for %{name}.
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.5-6
+- Mass rebuild 2013-12-27
+
 * Thu Aug 22 2013 Michal Srb <msrb@redhat.com> - 2.2.5-5
 - Migrate away from mvn-rpmbuild (Resolves: #997471)
 
